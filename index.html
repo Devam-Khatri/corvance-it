@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CORVANCE Private Limited | AI, Government Technology and IT Infrastructure</title>
+<meta name="description" content="CORVANCE works at the intersection of Artificial Intelligence, Digital Transformation, Government Technology and IT Infrastructure.">
+
+<!-- Favicon (browser tab icon) -->
+<link rel="icon" type="image/jpeg" href="assets/logo-icon.jpg">
+<link rel="apple-touch-icon" href="assets/logo-icon.jpg">
+
+<!-- Link preview card for WhatsApp, LinkedIn, email clients, etc.
+     These are static tags because most link-preview crawlers do not run JavaScript,
+     so the URLs below are hardcoded to the live domain. If the domain ever changes,
+     update the four "https://www.corvance.co.in" lines below to match. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CORVANCE Private Limited">
+<meta property="og:title" content="CORVANCE Private Limited | AI, Government Technology and IT Infrastructure">
+<meta property="og:description" content="CORVANCE works at the intersection of Artificial Intelligence, Digital Transformation, Government Technology and IT Infrastructure.">
+<meta property="og:url" content="https://www.corvance.co.in/">
+<meta property="og:image" content="https://www.corvance.co.in/assets/logo-lockup.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CORVANCE Private Limited">
+<meta name="twitter:description" content="AI, Government Technology and IT Infrastructure.">
+<meta name="twitter:image" content="https://www.corvance.co.in/assets/logo-lockup.jpg">
+
+<!-- Organization structured data, helps Google show the name/logo correctly in search results.
+     Update the email line once an official address is available; remove the comment marks around it. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CORVANCE Private Limited",
+  "url": "https://www.corvance.co.in/",
+  "logo": "https://www.corvance.co.in/assets/logo-lockup.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Capital Tower, Kursi Road",
+    "addressLocality": "Lucknow",
+    "postalCode": "226026",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9369042097",
+    "contactType": "customer service"
+  }
+}
+</script>
+
+<!-- Analytics (optional): paste a GA4 Measurement ID below (looks like "G-XXXXXXX") to enable.
+     Left blank, nothing loads and nothing is tracked. -->
+<script>
+  const GA_MEASUREMENT_ID = '';
+  if (GA_MEASUREMENT_ID) {
+    const s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', GA_MEASUREMENT_ID);
+  }
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#/home" aria-label="CORVANCE home">
+    <img src="assets/logo-icon.jpg" alt="">
+    <span class="nm">CORVANCE</span>
+  </a>
+  <nav class="links" id="links" aria-label="Main"></nav>
+  <a class="btn btn-gold nav-cta mag" href="#/contact">Contact us</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+</header>
+<div class="mmenu" id="mmenu"></div>
+
+<main id="main">
+
+<!-- HOME -->
+<section class="page" id="page-home" hidden>
+  <div class="hero" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>Innovation that solves.</span></span><span class="ln"><span>Technology that delivers.</span></span></h1>
+      <p class="sub fx">CORVANCE works across Artificial Intelligence, Digital Transformation, Government Technology and IT Infrastructure, helping institutions run better with the right technology.</p>
+      <div class="typed fx d2" aria-live="off">We work on <b id="typed"></b><s></s></div>
+      <div class="cta-row fx d3">
+        <a class="btn btn-gold mag" href="#/contact">Contact us</a>
+        <a class="btn btn-line mag" href="#/solutions">See what we do</a>
+      </div>
+    </div>
+    <div class="scrollcue" aria-hidden="true"></div>
+  </div>
+
+  <div class="sec tight"><div class="wrap">
+    <div class="marq" aria-hidden="true"><div class="track" data-marq="0"></div></div>
+    <div class="marq rev" aria-hidden="true"><div class="track" data-marq="1"></div></div>
+  </div></div>
+
+  <div class="sec" style="padding-top:30px"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">What we do</span>
+    <h2 data-anim="rise">Where we work.</h2>
+    <p class="lead" data-anim="rise">We work with government departments, institutions, technology companies and OEMs to plan, build and support technology that improves how they run.</p>
+    <div class="grid3" id="focus"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0;padding-bottom:0"><div class="sec tight"><div class="wrap"><div class="stats" id="stats"></div></div></div></div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Our process</span>
+    <h2 data-anim="wipe">From idea to a working solution.</h2>
+    <p class="lead" data-anim="rise">Technology should solve a real problem. Our process keeps every project grounded in that.</p>
+    <div class="proc" id="proc-home" style="--n:5"><div class="fill"></div></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <div class="grid3" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));margin-top:0;padding-top:56px">
+      <div data-anim="left"><div class="card"><div class="icon" data-icon="eye"></div><h3>Our vision</h3><p>To help institutions become smarter, more connected and more efficient through technology that's actually useful.</p></div></div>
+      <div data-anim="right"><div class="card"><div class="icon" data-icon="compass"></div><h3>Our mission</h3><p>To find real problems, build the right technology for them, and work with partners who can help deliver it well.</p></div></div>
+    </div>
+  </div></div>
+
+  <div data-cta></div>
+</section>
+
+<!-- ABOUT US (leadership) -->
+<section class="page" id="page-about-us" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>The people behind</span></span><span class="ln"><span>CORVANCE.</span></span></h1>
+      <p class="fx">A small, hands-on team focused on doing the work properly.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Leadership</span>
+    <h2 data-anim="wipe">Executive Director.</h2>
+    <div class="people" id="director" style="max-width:420px;margin-left:0"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:56px"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Ownership</span>
+    <h2 data-anim="wipe">Shareholders &amp; executives.</h2>
+    <div class="people" id="shareholders"></div>
+  </div></div>
+
+  <div data-cta></div>
+</section>
+
+<!-- APPROACH -->
+<section class="page" id="page-approach" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>Technology</span></span><span class="ln"><span>with purpose.</span></span></h1>
+      <p class="fx">CORVANCE is an emerging technology and innovation-focused organisation working across Artificial Intelligence, Digital Transformation, Government Technology and IT Infrastructure.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">How we think</span>
+    <h2 data-anim="wipe">Our approach is simple.</h2>
+    <div class="panel" data-anim="rise" style="margin-top:26px">
+      <p><strong>Understand the problem. Design the solution. Implement the technology. Measure the outcome.</strong><br><br>The future of technology adoption won't be defined by hardware or software alone, but by how much it actually improves the way an organisation works.</p>
+    </div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">What we focus on</span>
+    <h2 data-anim="wipe">Two areas of work.</h2>
+    <div class="grid3" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))">
+      <div data-anim="left"><article class="card"><div class="icon">01</div><h3>AI &amp; Digital Innovation</h3><p>Finding places where Artificial Intelligence, data and automation can genuinely improve how an organisation runs: its efficiency, decision-making, monitoring and day-to-day processes.</p></article></div>
+      <div data-anim="right"><article class="card"><div class="icon">02</div><h3>Technology Infrastructure</h3><p>Helping organisations set up reliable technology infrastructure such as networks, computing and hardware, by working with OEMs, system integrators and technology partners.</p><a class="more" href="#/infrastructure">Infrastructure services <span aria-hidden="true">&rarr;</span></a></article></div>
+    </div>
+  </div></div>
+
+  <div class="sec"><div class="wrap two">
+    <div>
+      <span class="eyebrow" data-anim="rise">Public sector</span>
+      <h2 data-anim="wipe">Government technology.</h2>
+      <p class="lead" data-anim="rise">We focus particularly on these areas:</p>
+    </div>
+    <ul class="tagc" id="about-gov" data-anim="rise" style="margin-top:0"></ul>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">Our philosophy</span>
+    <h2 data-anim="wipe">Innovation should solve a problem.</h2>
+    <p class="lead" data-anim="rise">Before starting any project, we ask three questions:</p>
+    <div class="grid3" id="philosophy"></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">How we work with others</span>
+    <h2 data-anim="wipe">Building the right partnerships.</h2>
+    <p class="lead" data-anim="rise">Good technology needs the right people around it. We aim to connect:</p>
+    <div id="chain" data-anim="pop"></div>
+  </div></div>
+  <div data-cta></div>
+</section>
+
+<!-- AI & GOVERNMENT -->
+<section class="page" id="page-ai" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>AI and innovation</span></span><span class="ln"><span>for government.</span></span></h1>
+      <p class="fx">We don't use AI just because it's new. We look for places where it can genuinely make a public service work better.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Our process</span>
+    <h2 data-anim="wipe">How we approach an AI project.</h2>
+    <p class="lead" data-anim="rise">A simple, careful path from understanding the problem to measuring the result.</p>
+    <div class="grid3" id="aifw"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">What's possible</span>
+    <h2 data-anim="wipe">Ways AI can help.</h2>
+    <div class="grid3" id="aiapps"></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap two">
+    <div>
+      <span class="eyebrow" data-anim="rise">Doing it responsibly</span>
+      <h2 data-anim="wipe">Responsible AI.</h2>
+      <p class="lead" data-anim="rise">AI used in government needs extra care. We pay particular attention to:</p>
+      <div class="panel" data-anim="rise" style="margin-top:24px"><p><strong>We believe in AI that is closely supervised by people, and clearly tied to a real outcome, not AI for its own sake.</strong></p></div>
+    </div>
+    <ul class="tagc" id="responsible" data-anim="rise" style="margin-top:0"></ul>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:56px"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">By sector</span>
+    <h2 data-anim="wipe">Where we focus in the public sector.</h2>
+    <p class="lead" data-anim="rise">Select a sector to see the areas we're exploring.</p>
+    <div class="tabs" id="tabs" role="tablist" aria-label="Sectors"></div>
+    <div id="sector" role="tabpanel"></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap two">
+    <div>
+      <h2 data-anim="wipe">How we grow what works.</h2>
+      <p class="lead" data-anim="rise">Most projects start small: a single institution tries something new, and we check carefully whether it's working. If it is, we help take it further, step by step, to a wider area:</p>
+    </div>
+    <div class="ladder-card" data-anim="rise" data-play>
+      <div class="ladder" data-ladder></div>
+    </div>
+  </div></div>
+  <div data-cta></div>
+</section>
+
+<!-- INFRASTRUCTURE -->
+<section class="page" id="page-infrastructure" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>Connecting technology.</span></span><span class="ln"><span>Enabling deployment.</span></span></h1>
+      <p class="fx">We work with technology manufacturers, distributors, system integrators and infrastructure providers, from the first requirement to installation, testing and ongoing support.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">What we cover</span>
+    <h2 data-anim="wipe">Infrastructure capabilities.</h2>
+    <div class="grid3" id="infra"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">Technology partners</span>
+    <h2 data-anim="wipe">Manufacturers &amp; technology partners.</h2>
+    <p class="lead" data-anim="rise">We aim to work with leading technology manufacturers across:</p>
+    <ul class="tagc" id="oem-areas" data-anim="rise"></ul>
+    <p class="lead" data-anim="rise" style="margin-top:30px">Names we may work with in this space include:</p>
+    <ul class="tagc" id="oem-names" data-anim="rise"></ul>
+    <div class="panel" data-anim="rise" style="margin-top:26px"><p>Any partnership or channel relationship is set up formally, with the right authorisation and commercial agreement in place first.</p></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Step by step</span>
+    <h2 data-anim="wipe">How a project runs.</h2>
+    <p class="lead" data-anim="rise">Seven stages, from the first conversation to long-term support.</p>
+    <div class="proc vert" id="proc-life"><div class="fill"></div></div>
+  </div></div>
+  <div data-cta></div>
+</section>
+
+<!-- SOLUTIONS -->
+<section class="page" id="page-solutions" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>One technology partner.</span></span><span class="ln"><span>Several capabilities.</span></span></h1>
+      <p class="fx">CORVANCE brings together AI, digital transformation, analytics and IT infrastructure under one roof.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Capabilities</span>
+    <h2 data-anim="wipe">What we can help with.</h2>
+    <div class="grid3" id="caps"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">How we deliver</span>
+    <h2 data-anim="wipe">Our delivery model.</h2>
+    <div class="proc" id="proc-deliver" style="--n:6"><div class="fill"></div></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <div class="panel" data-anim="rise">
+      <h2 style="max-width:none">What we're actually aiming for.</h2>
+      <p style="margin-top:14px">Delivering technology isn't the end goal by itself. What matters is:</p>
+      <div class="eq" id="eq"></div>
+    </div>
+  </div></div>
+  <div data-cta></div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="page-contact" hidden>
+  <div class="phead" data-play>
+    <div class="orb o1" data-speed=".1"><b></b></div><div class="orb o2" data-speed=".16"><b></b></div>
+    <div class="wrap">
+      <h1 class="split"><span class="ln"><span>Contact</span></span><span class="ln"><span>CORVANCE.</span></span></h1>
+      <p class="fx">Government departments, OEMs, system integrators, technology companies and institutions are welcome to contact us regarding any requirement or partnership opportunity.</p>
+    </div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Who we hear from</span>
+    <h2 data-anim="wipe">Please select the option that applies to you.</h2>
+    <p class="lead" data-anim="rise">Your selection will be reflected automatically in the form below.</p>
+    <div class="grid3" id="partners"></div>
+  </div></div>
+
+  <div class="sec soft" style="padding-top:0"><div class="wrap">
+    <span class="eyebrow" data-anim="rise" style="padding-top:56px;display:block">Get in touch</span>
+    <h2 data-anim="wipe">Submit an enquiry.</h2>
+    <div class="cgrid" style="margin-top:36px">
+      <div class="card" data-anim="rise" id="formcard" style="height:auto">
+        <form class="form" id="form" novalidate>
+          <div class="row2">
+            <div class="f"><input id="fn" name="name" placeholder=" " autocomplete="name" required><label for="fn">Full name</label><div class="err"></div></div>
+            <div class="f"><input id="fe" name="email" type="email" placeholder=" " autocomplete="email" required><label for="fe">Email address</label><div class="err"></div></div>
+          </div>
+          <div class="row2">
+            <div class="f"><input id="fc" name="org" placeholder=" " autocomplete="organization"><label for="fc">Organisation</label></div>
+            <div class="f"><select id="fs" name="type"></select><label for="fs">I am contacting you as</label></div>
+          </div>
+          <div class="f"><select id="fa" name="area"></select><label for="fa">Area of interest</label></div>
+          <div class="f"><textarea id="fm" name="message" placeholder=" " required></textarea><label for="fm">Please describe your requirement</label><div class="err"></div></div>
+          <button class="btn btn-gold" type="submit" id="send">Submit enquiry</button>
+          <p class="privacy-note">The details submitted above are used only to respond to your enquiry and are not shared with any third party.</p>
+        </form>
+      </div>
+      <div class="info" id="info"></div>
+    </div>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <span class="eyebrow" data-anim="rise">Where we can help</span>
+    <h2 data-anim="wipe">Areas of collaboration.</h2>
+    <ul class="tagc" id="collab" data-anim="rise"></ul>
+  </div></div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><a class="logo" href="#/home" style="color:#fff;padding:0"><img src="assets/logo-icon.jpg" alt=""><span class="nm">CORVANCE</span></a><p style="margin-top:14px;max-width:36ch">Innovation that solves. Technology that delivers.</p></div>
+      <div><h4>Pages</h4><div id="flinks"></div></div>
+      <div><h4>Contact</h4><a data-web href="#"></a><a data-mail href="#"></a><a data-tel href="#"></a><span data-addr></span></div>
+    </div>
+    <div class="copy"><span>&copy; <span id="yr"></span> <span data-legal></span>. All rights reserved.</span><span>Innovate | Build | Grow</span></div>
+  </div>
+</footer>
+<a class="whatsapp" id="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.38a9.94 9.94 0 004.79 1.22h.01c5.5 0 10-4.5 10-10s-4.5-10-10.01-10zm5.87 14.3c-.25.7-1.45 1.35-2 1.44-.51.08-1.15.11-1.86-.12-.43-.14-.98-.32-1.68-.63-2.96-1.28-4.9-4.26-5.04-4.46-.15-.2-1.21-1.6-1.21-3.05s.76-2.17 1.03-2.47c.27-.3.59-.37.79-.37.2 0 .39 0 .56.01.18.01.42-.07.65.5.25.6.85 2.08.92 2.23.07.15.12.33.02.53-.1.2-.15.32-.3.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.6.17.3.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.3.15.47.13.64-.08.18-.2.75-.87.95-1.17.2-.3.4-.25.66-.15.27.1 1.73.82 2.02.97.3.15.5.22.57.35.07.13.07.75-.18 1.45z"/></svg>
+</a>
+<button class="top" id="top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

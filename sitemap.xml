@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This site's pages (About Us, Approach, AI & Government, etc.) are separate
+  sections within one HTML file, reached via "#/about-us" style links rather
+  than separate addresses. Search engines generally treat everything after
+  the "#" as the same page as the address in front of it, so those sections
+  cannot be listed here as separate entries; only the homepage below is a
+  distinct, crawlable address.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.corvance.co.in/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
