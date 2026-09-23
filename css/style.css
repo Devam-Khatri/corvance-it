@@ -1151,6 +1151,18 @@ a.card{display:block}
   margin-top:14px;
   text-align:left
 }
+/* Executive Director — keep current 4:3 size */
+.person:first-child .avatar{
+  aspect-ratio:4 / 3;
+}
+
+/* Directors — smaller portrait */
+.person:not(:first-child) .avatar{
+  width:75%;
+  aspect-ratio:4 / 3;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 /* cta */
 .cta{
