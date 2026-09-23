@@ -1151,14 +1151,15 @@ a.card{display:block}
   margin-top:14px;
   text-align:left
 }
-/* Executive Director — keep current 4:3 size */
-.person:first-child .avatar{
+/* Executive Director */
+#director .person .avatar{
+  width:100%;
   aspect-ratio:4 / 3;
 }
 
-/* Directors — smaller portrait */
-.person:not(:first-child) .avatar{
-  width:75%;
+/* Shareholders / Directors */
+#shareholders .person .avatar{
+  width:70%;
   aspect-ratio:4 / 3;
   margin-left:auto;
   margin-right:auto;
