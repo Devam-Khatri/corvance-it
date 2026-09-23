@@ -1104,7 +1104,7 @@ a.card{display:block}
 }
 .person .avatar{
   width:100%;
-  aspect-ratio:3 / 4;
+  aspect-ratio:1 / 1;
   height:auto;
   border-radius:14px;
   margin:0 auto 20px;
@@ -1160,7 +1160,7 @@ a.card{display:block}
 /* Shareholders / Directors */
 #shareholders .person .avatar{
   width:70%;
-  aspect-ratio:4 / 3;
+  aspect-ratio:3 / 4;
   margin-left:auto;
   margin-right:auto;
 }
